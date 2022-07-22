@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+var="Best School"
+n=0
+
+while [ $n -lt 9 ]
+do
+	echo "$var"
+	if [ $n -eq 8 ];
+	then
+		echo "Hi"
+		echo "$var"
+	fi
+	((n++))
+done
