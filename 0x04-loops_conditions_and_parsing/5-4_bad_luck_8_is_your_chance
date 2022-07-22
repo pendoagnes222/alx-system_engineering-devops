@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+var="Best School"
+n=1
+
+while [ $n -le 10 ]
+do
+	if [ $n -eq 4 ];
+	then
+		echo "bad luck"
+	elif [ $n -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "$var"
+	fi
+	((n++))
+done
