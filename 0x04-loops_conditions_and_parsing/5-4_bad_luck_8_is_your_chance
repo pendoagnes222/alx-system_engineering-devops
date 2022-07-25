@@ -1,19 +1,16 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
-
-var="Best School"
-n=1
-
-while [ $n -le 10 ]
+#loop 10 iterations and three especific conditionals
+i="0"
+while [ $i -lt 10 ]
 do
-	if [ $n -eq 4 ];
+	if ((i == 3))
 	then
 		echo "bad luck"
-	elif [ $n -eq 8 ]
-	then
+	elif ((i == 7))
+	then 
 		echo "good luck"
 	else
-		echo "$var"
+		echo "Best School"
 	fi
-	((n++))
+	((i++))
 done

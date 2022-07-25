@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-
-counter=1
-var="Best School"
-until [ $counter -gt 10 ]
+x="0"
+until [ $x -ge 10 ]
 do
-	echo "$var"
-	((counter++))
+    echo "Best School"
+    x=$((x+1))
 done
