@@ -1,3 +1,15 @@
- A PID (i.e., process identification number) is an identification number that is automatically assigned to each process when it is created on a Unix-like operating system.
+# Loops, Conditions, and Parsing
 
-A process is an executing (i.e., running) instance of a program. Each process is guaranteed a unique PID, which is always a non-negative integer. 
+## Resources
+- [Linux PID](http://www.linfo.org/pid.html)
+- [Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)
+- [Linux signal](https://www.thegeekstuff.com/2012/03/linux-signals-fundamentals/)
+
+## Learning Objectives
+### General
+- What is a PID
+- What is a process
+- How to find a process’ PID
+- How to kill a process
+- What is a signal
+- What are the 2 signals that cannot be ignored
