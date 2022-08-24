@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-#Auth: Sangwani P Zyambo
-puts ARGV[0].scan(/[A-Z]*/).join
+# Return only letters that are in cap 
+
+puts ARGV[0].scan(/[A-Z]/).join

@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-#Auth: Sangwani P Zyambo
-puts ARGV[0].scan(/hb?t?n/).join
+# Take one argument and pass it to a regex matching method
+
+puts ARGV[0].scan(/hb?tn/).join

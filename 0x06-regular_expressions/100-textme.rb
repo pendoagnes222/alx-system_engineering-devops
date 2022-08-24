@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-#Auth: Sangwani P Zyambo
-puts ARGV[0].scan(/\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/).join(",")
+# Prints sender, receiver and flags
+
+puts ARGV[0].scan(/\[from:(.*?)\]\s\[to:(.*?)\]\s\[flags:(.*?)\]/).join(',')
