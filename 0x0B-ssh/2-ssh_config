@@ -1,4 +1,5 @@
 Host first_server_11698_web_01
+
 	Hostname 3.238.203.241
 	User ubuntu
 	PasswordAuthentication no
