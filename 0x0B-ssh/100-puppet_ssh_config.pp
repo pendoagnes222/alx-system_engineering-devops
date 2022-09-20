@@ -1,6 +1,3 @@
-# using Puppet to make changes to our configuration file
-# so that we can connect to a server without typing a password.
-
 include stdlib
 file_line { 'Declare identity file':
   path    => '/etc/ssh/ssh_config',
