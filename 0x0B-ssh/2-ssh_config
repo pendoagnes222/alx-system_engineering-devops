@@ -1,5 +1,5 @@
-Host first_server_11698_web_01
-	Hostname 3.238.203.241
+Host first_server_13125-web-01
+	Hostname 18.205.38.14
 	User ubuntu
 	PasswordAuthentication no
 	PubkeyAuthentication yes
