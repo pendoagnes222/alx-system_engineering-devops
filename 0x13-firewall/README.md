@@ -16,7 +16,7 @@ Firewalls rules can be based on:
   
    Key words
 
-Types of firewalls
+TYPES OF FIREWALL
 
 1.Host-based firewalls
  
