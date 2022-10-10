@@ -13,4 +13,7 @@ Requirements:
     nginx must be listening on all active IPs on port 8080
     You cannot use apt-get remove
 
- 
+2. 7 lines or less
+   Bash script that fixes a web server to run Nginx listening on port 8080 as th   e nginx user.
+   Must be 7 lines long.
+  
