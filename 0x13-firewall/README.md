@@ -24,6 +24,7 @@ TYPES OF FIREWALL
   
    Protect that computer only
 
+
 2.Network-based firewalls
   
    Combination of hardware and software and it operates at the network
@@ -32,7 +33,9 @@ TYPES OF FIREWALL
   
    Protect the entire network 
 
-0.0-block_all_incoming_traffic_but
+
+
+0. 0-block_all_incoming_traffic_but
   Installing the ufw firewall and setup a few rules on web-0 
   
   Configure ufw so that it blocks all incoming traffic, 
@@ -43,5 +46,7 @@ TYPES OF FIREWALL
     
        80 (HTTP)
 
-1.100-port_forwarding
+
+1. 100-port_forwarding
+  
   Configure web-01 so that its firewall redirects port 8080/TCP to port 80/TCP
