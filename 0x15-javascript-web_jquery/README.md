@@ -16,10 +16,11 @@
 
 # 5-script.js
 
-* JavaScript script that adds a <li> element to a list when the user clicks on the tag DIV#add_item:
+* JavaScript script that adds a (<li>) element to a list when the user clicks on the tag DIV#add_item:
 
 # 6-script.js
-* JavaScript script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header
+
+ * JavaScript script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header
 
 # 7-script.js
 
